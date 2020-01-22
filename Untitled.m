@@ -1,0 +1,2 @@
+restoredefaultpath;matlabrc
+savepath pathdef.m

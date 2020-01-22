@@ -13,6 +13,3 @@ elseif 30.0<= BMI
     status=4;
     fprintf('Obese!');
 end
-
-
-

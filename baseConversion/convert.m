@@ -1,4 +1,3 @@
-
-function res = convert(num, from, to)
-    res = convertTo(convertFrom(num, from), to);
+function NUM=convert(num,from,to)
+NUM=convertTo(convertFrom(num,from),to);
 end

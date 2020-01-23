@@ -1,8 +1,8 @@
-function res = convertTo(num, base)
-    length = floor(log(num)/log(base)) + 1;
-    res = zeros(1, length);
-    for i = 1:length
-        res(length - i + 1) = mod(num, base);
-        num = floor(num / base);
-    end
+function numB=convertTo(num10,Base)
+ L=floor(log(num10)/log(Base))+1;
+ numB=0;
+ for i=1:L
+     b=mod(num10,Base);
+     num10=(num10-b)/Base;
+     numB=numB+b*10^(i-1);
 end

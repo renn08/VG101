@@ -1,2 +1,1 @@
-restoredefaultpath;matlabrc
-savepath pathdef.m
+hex2dec('17');

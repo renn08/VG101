@@ -1,4 +1,0 @@
-eins zwei
-drei vier
-funf sechs
-eins zwei drei
